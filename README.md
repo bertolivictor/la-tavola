@@ -20,6 +20,10 @@
   <img src="https://img.shields.io/badge/Projeto-Fict%C3%ADcio-D2653A" alt="Projeto fictício" />
 </p>
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c5b6fddc-7d4b-4bdc-af9d-8b66b2f60344" alt="Pizzaria La Tavola — página inicial" width="850" />
+</p>
+
 ---
 
 > ⚠️ **Projeto fictício.** A Pizzaria La Tavola não existe. Este é um trabalho de **portfólio**, sem fins comerciais — não há endereço, telefone, pedidos ou estabelecimento reais. Os botões de delivery são apenas ilustrativos.
@@ -61,55 +65,3 @@ O **logotipo** representa a identidade visual fictícia da marca.
 - **lucide-react** — ícones
 - **CSS puro** — sem framework de estilos; todo o tema (cores, animações, layout) é escrito à mão
 - **Google Fonts** — *Fraunces* (títulos) + *Hanken Grotesk* (texto)
-
-## 🚀 Rodando localmente
-
-```bash
-# instalar dependências
-npm install
-
-# rodar em modo desenvolvimento
-npm run dev
-```
-
-Abra o endereço que aparecer no terminal (geralmente `http://localhost:5173`).
-
-## 📦 Deploy (GitHub Pages)
-
-O projeto já vem configurado para publicar no GitHub Pages com o pacote `gh-pages`.
-
-1. Em `vite.config.js`, confira se o `base` é igual ao nome do repositório:
-   ```js
-   base: '/la-tavola/',
-   ```
-2. Publique:
-   ```bash
-   npm run deploy
-   ```
-3. No GitHub: **Settings → Pages → Source: _Deploy from a branch_ → branch `gh-pages` → `/root`**.
-
-> 💡 Se o `base` não bater **exatamente** com o nome do repositório, a página abre em branco — é o erro mais comum.
-
-## 📁 Estrutura
-
-```
-la-tavola/
-├── index.html
-├── vite.config.js
-├── package.json
-└── src/
-    ├── App.jsx        # o site inteiro (componente principal)
-    ├── main.jsx       # ponto de entrada do React
-    ├── index.css      # reset de estilos
-    └── assets/        # fotos das pizzas (.webp) + logo
-```
-
-## 📝 Licença
-
-Projeto pessoal de portfólio, criado para fins de estudo e demonstração. Sinta-se à vontade para se inspirar. 🙂
-
----
-
-<p align="center">
-  Feito com 🔥 e fermentação natural por <a href="https://github.com/bertolivictor">Victor</a>
-</p>
